@@ -8,13 +8,6 @@ tags: math, word problems, hard
 
 Run `npm install`
 
-## Tests
-
-Review the `wordy.js` file inside the `lib` directory, and then the `wordy.spec.js` file inside the `spec` directory. Review each of the tests, and then start implementing your solutions to make each test pass in `wordy.js`.
-
-Run `grunt watch` then edit your files. Grunt will watch for changes. Grunt
-will only run tests that start with `it`. When you finish passing a test,
-remove the `x` from `xit` to convert it to a runnable test.
 
 ## Background
 
@@ -79,3 +72,18 @@ Implement questions of the type:
 > What is 2 raised to the 5th power?
 
 Remember to write failing tests for this code.
+
+## Tests
+
+To run the specs follow these commands:
+```shell
+# first install the new gem to run the tests
+gem sources -a http://flatiron:33west26@gems.flatironschool.com
+gem install jasmine-flatiron
+
+# to run in the command line run
+jasmine-flatiron
+
+#to run in the browser
+jasmine-flatiron -b
+```
